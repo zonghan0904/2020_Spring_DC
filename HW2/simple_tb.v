@@ -109,7 +109,9 @@ always @(OP, A, B) begin
     bin = B[15-:4] * 1000 + B [11-:4] * 100 + B[7-:4] * 10 + B[3-:4];
     comp = (9 - A[15-:4]) * 1000 + (9 - A[11-:4]) * 100 + (9 - A[7-:4]) * 10 + (9 - A[3-:4]);
 
-    if (OP == 2'b00) cout  = ain + bin;
+    if (A[15-:4] > 9 || A[11-:4] > 9 || A[7-:4] > 9 || A[3-:4] > 9) cout = 16'hCCCC;
+    else if (B[15-:4] > 9 || B[11-:4] > 9 || B[7-:4] > 9 || B[3-:4] > 9) cout = 16'hCCCC;
+    else if (OP == 2'b00) cout  = ain + bin;
     else if (OP == 2'b01) cout = ain - bin;
     else if (OP == 2'b10) cout = comp;
     else if (OP == 2'b11) begin
