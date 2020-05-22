@@ -1,0 +1,189 @@
+$date
+	Sat May 23 03:14:01 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Inner_Prod_tb $end
+$var wire 1 ! valid_out $end
+$var wire 19 " C_out [18:0] $end
+$var reg 8 # A_input [7:0] $end
+$var reg 8 $ B_input [7:0] $end
+$var reg 1 % clk $end
+$var reg 19 & correct_data [18:0] $end
+$var reg 1 ' error_occur $end
+$var reg 1 ( rst $end
+$var reg 1 ) valid_in $end
+$var real 1 * CYCLE $end
+$var integer 32 + i [31:0] $end
+$scope module uut $end
+$var wire 8 , A [7:0] $end
+$var wire 8 - B [7:0] $end
+$var wire 19 . C [18:0] $end
+$var wire 1 % clk $end
+$var wire 1 ( rst $end
+$var wire 1 ) valid_in $end
+$var wire 1 ! valid_out $end
+$var reg 1 / last_state $end
+$var reg 19 0 out [18:0] $end
+$var reg 19 1 val [18:0] $end
+$var reg 1 2 vout $end
+$upscope $end
+$scope task testcase_generate $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x2
+bx 1
+bx 0
+x/
+bx .
+b0 -
+b0 ,
+bx +
+r1000 *
+0)
+0(
+0'
+bx &
+0%
+b0 $
+b0 #
+bx "
+x!
+$end
+#500000
+0/
+1%
+#1000000
+b0 1
+b0 "
+b0 .
+b0 0
+0!
+02
+1(
+0%
+#1500000
+1%
+#2000000
+0(
+0%
+#2500000
+1%
+#3000000
+b111101 $
+b111101 -
+b1 #
+b1 ,
+b0 +
+1)
+b10111100001000111 &
+0%
+#3500000
+1/
+b111101 1
+1%
+#4000000
+b10101 $
+b10101 -
+b10110010 #
+b10110010 ,
+b1 +
+0%
+#4500000
+b111011010111 1
+1%
+#5000000
+b10011001 $
+b10011001 -
+b110001 #
+b110001 ,
+b10 +
+0%
+#5500000
+b10110000100000 1
+1%
+#6000000
+b10100110 $
+b10100110 -
+b10101 #
+b10101 ,
+b11 +
+0%
+#6500000
+b11100110111110 1
+1%
+#7000000
+b1110010 $
+b1110010 -
+b11100011 #
+b11100011 ,
+b100 +
+0%
+#7500000
+b1001111011010100 1
+1%
+#8000000
+b1011011 $
+b1011011 -
+b11010000 #
+b11010000 ,
+b101 +
+0%
+#8500000
+b1110100011000100 1
+1%
+#9000000
+b1001110 $
+b1001110 -
+b11111111 #
+b11111111 ,
+b110 +
+0%
+#9500000
+b10011011001110110 1
+1%
+#10000000
+b1010011 $
+b1010011 -
+b11001011 #
+b11001011 ,
+b111 +
+0%
+#10500000
+b10111100001000111 1
+1%
+#11000000
+b0 $
+b0 -
+b0 #
+b0 ,
+0)
+b1000 +
+0%
+#11500000
+b10111100001000111 "
+b10111100001000111 .
+b10111100001000111 0
+1!
+12
+0/
+1%
+#12000000
+0%
+#12500000
+b0 1
+b0 "
+b0 .
+b0 0
+0!
+02
+1%
+#13000000
+0%
