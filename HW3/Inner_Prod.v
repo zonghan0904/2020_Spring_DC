@@ -9,13 +9,15 @@ module Inner_Prod(input clk,
     reg vout;
     reg unsigned [18:0] val, out;
     reg last_state;
+    reg last_reset;
 
     always@(rst) begin
-	if (rst) begin
+	if (~rst && last_reset) begin
 	    vout <= 0;
 	    out <= 0;
 	    val <= 0;
 	end
+	last_reset <= rst;
     end
 
     always@(posedge clk) begin
