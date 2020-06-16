@@ -1,0 +1,600 @@
+$date
+	Tue Jun 16 23:29:58 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module subseq_sum_tb $end
+$var wire 1 ! valid_out $end
+$var wire 12 " max_sum_out [11:0] $end
+$var reg 1 # clk $end
+$var reg 12 $ correct_data [11:0] $end
+$var reg 8 % data_input [7:0] $end
+$var reg 1 & error_occur $end
+$var reg 1 ' rst $end
+$var reg 1 ( valid_in $end
+$var real 1 ) CYCLE $end
+$var integer 32 * i [31:0] $end
+$var integer 32 + lat [31:0] $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 8 , data_in [7:0] $end
+$var wire 12 - max_sum [11:0] $end
+$var wire 1 ' rst $end
+$var wire 1 ( valid_in $end
+$var wire 1 ! valid_out $end
+$var reg 1 . _rst $end
+$var reg 4 / count [3:0] $end
+$var reg 3 0 curr_state [2:0] $end
+$var reg 4 1 i [3:0] $end
+$var reg 12 2 m_sum [11:0] $end
+$var reg 3 3 next_state [2:0] $end
+$var reg 12 4 p_sum [11:0] $end
+$var reg 12 5 sum [11:0] $end
+$var reg 1 6 vout $end
+$upscope $end
+$scope task testcase_generate $end
+$upscope $end
+$scope task wait_out_valid $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$var reg 8 7 \data_array[0] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$var reg 8 8 \data_seq[0] [7:0] $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$var reg 8 9 \data_array[1] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$var reg 8 : \data_seq[1] [7:0] $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$var reg 8 ; \data_array[2] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$var reg 8 < \data_seq[2] [7:0] $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$var reg 8 = \data_array[3] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$var reg 8 > \data_seq[3] [7:0] $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$var reg 8 ? \data_array[4] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$var reg 8 @ \data_seq[4] [7:0] $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$var reg 8 A \data_array[5] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$var reg 8 B \data_seq[5] [7:0] $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$var reg 8 C \data_array[6] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$var reg 8 D \data_seq[6] [7:0] $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$scope module uut $end
+$var reg 8 E \data_array[7] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module subseq_sum_tb $end
+$var reg 8 F \data_seq[7] [7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+x6
+bx 5
+bx 4
+b0 3
+bx 2
+bx 1
+bx 0
+bx /
+x.
+bx -
+b0 ,
+bx +
+b1000 *
+r1000 )
+0(
+0'
+0&
+b0 %
+bx $
+0#
+bx "
+x!
+$end
+#500000
+b0 /
+0.
+b0 0
+1#
+#501000
+1'
+#1000000
+0#
+#1500000
+b0 "
+b0 -
+b0 2
+0!
+06
+1.
+1#
+#1501000
+0'
+#2000000
+0#
+#2500000
+0.
+1#
+#2501000
+b0 *
+b101 $
+b11111011 F
+b11 D
+b1 B
+b11111111 @
+b10 >
+b11111101 <
+b1 :
+b11111001 8
+#3000000
+0#
+#3500000
+1#
+#3501000
+b1 3
+b1 *
+b11111001 %
+b11111001 ,
+1(
+#4000000
+0#
+#4500000
+b1 /
+b11111001 7
+b1 0
+1#
+#4501000
+b10 /
+b1 9
+b10 *
+b1 %
+b1 ,
+#5000000
+0#
+#5500000
+1#
+#5501000
+b11 /
+b11111101 ;
+b11 *
+b11111101 %
+b11111101 ,
+#6000000
+0#
+#6500000
+1#
+#6501000
+b100 /
+b10 =
+b100 *
+b10 %
+b10 ,
+#7000000
+0#
+#7500000
+1#
+#7501000
+b101 /
+b11111111 ?
+b101 *
+b11111111 %
+b11111111 ,
+#8000000
+0#
+#8500000
+1#
+#8501000
+b110 /
+b1 A
+b110 *
+b1 %
+b1 ,
+#9000000
+0#
+#9500000
+1#
+#9501000
+b111 /
+b11 C
+b111 *
+b11 %
+b11 ,
+#10000000
+0#
+#10500000
+1#
+#10501000
+b1000 /
+b11111011 E
+b1000 *
+b11111011 %
+b11111011 ,
+#11000000
+0#
+#11500000
+1#
+#11501000
+b10 3
+b0 +
+b0 %
+b0 ,
+0(
+#12000000
+0#
+#12500000
+b11 3
+b0 5
+b0 4
+b0 1
+b10 0
+b1 +
+1#
+#13000000
+0#
+#13500000
+b100 3
+b111111111001 4
+b11 0
+b10 +
+1#
+#14000000
+0#
+#14500000
+b101 3
+b0 4
+b100 0
+b11 +
+1#
+#15000000
+0#
+#15500000
+b110 3
+b101 0
+b100 +
+1#
+#16000000
+0#
+#16500000
+b11 3
+b1 1
+b110 0
+b101 +
+1#
+#17000000
+0#
+#17500000
+b100 3
+b1 4
+b11 0
+b110 +
+1#
+#18000000
+0#
+#18500000
+b101 3
+b100 0
+b111 +
+1#
+#19000000
+0#
+#19500000
+b110 3
+b1 5
+b101 0
+b1000 +
+1#
+#20000000
+0#
+#20500000
+b11 3
+b10 1
+b110 0
+b1001 +
+1#
+#21000000
+0#
+#21500000
+b100 3
+b111111111110 4
+b11 0
+b1010 +
+1#
+#22000000
+0#
+#22500000
+b101 3
+b0 4
+b100 0
+b1011 +
+1#
+#23000000
+0#
+#23500000
+b110 3
+b101 0
+b1100 +
+1#
+#24000000
+0#
+#24500000
+b11 3
+b11 1
+b110 0
+b1101 +
+1#
+#25000000
+0#
+#25500000
+b100 3
+b10 4
+b11 0
+b1110 +
+1#
+#26000000
+0#
+#26500000
+b101 3
+b100 0
+b1111 +
+1#
+#27000000
+0#
+#27500000
+b110 3
+b10 5
+b101 0
+b10000 +
+1#
+#28000000
+0#
+#28500000
+b11 3
+b100 1
+b110 0
+b10001 +
+1#
+#29000000
+0#
+#29500000
+b100 3
+b1 4
+b11 0
+b10010 +
+1#
+#30000000
+0#
+#30500000
+b101 3
+b100 0
+b10011 +
+1#
+#31000000
+0#
+#31500000
+b110 3
+b101 0
+b10100 +
+1#
+#32000000
+0#
+#32500000
+b11 3
+b101 1
+b110 0
+b10101 +
+1#
+#33000000
+0#
+#33500000
+b100 3
+b10 4
+b11 0
+b10110 +
+1#
+#34000000
+0#
+#34500000
+b101 3
+b100 0
+b10111 +
+1#
+#35000000
+0#
+#35500000
+b110 3
+b101 0
+b11000 +
+1#
+#36000000
+0#
+#36500000
+b11 3
+b110 1
+b110 0
+b11001 +
+1#
+#37000000
+0#
+#37500000
+b100 3
+b101 4
+b11 0
+b11010 +
+1#
+#38000000
+0#
+#38500000
+b101 3
+b100 0
+b11011 +
+1#
+#39000000
+0#
+#39500000
+b110 3
+b101 5
+b101 0
+b11100 +
+1#
+#40000000
+0#
+#40500000
+b11 3
+b111 1
+b110 0
+b11101 +
+1#
+#41000000
+0#
+#41500000
+b100 3
+b0 4
+b11 0
+b11110 +
+1#
+#42000000
+0#
+#42500000
+b101 3
+b100 0
+b11111 +
+1#
+#43000000
+0#
+#43500000
+b110 3
+b101 0
+b100000 +
+1#
+#44000000
+0#
+#44500000
+b11 3
+b1000 1
+b110 0
+b100001 +
+1#
+#45000000
+0#
+#45500000
+b100 3
+bx 4
+b11 0
+b100010 +
+1#
+#46000000
+0#
+#46500000
+b101 3
+b100 0
+b100011 +
+1#
+#47000000
+0#
+#47500000
+b110 3
+b101 0
+b100100 +
+1#
+#48000000
+0#
+#48500000
+b111 3
+b110 0
+b100101 +
+1#
+#49000000
+0#
+#49500000
+b0 3
+b101 "
+b101 -
+b101 2
+1!
+16
+b111 0
+b100110 +
+1#
+#50000000
+0#
+#50500000
+b0 "
+b0 -
+b0 2
+0!
+06
+b0 /
+b0 0
+1#
+#51000000
+0#
+#51500000
+1#
+#52000000
+0#
+#52500000
+1#
+#53000000
+0#
+#53500000
+1#
